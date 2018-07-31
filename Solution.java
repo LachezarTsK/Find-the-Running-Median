@@ -12,12 +12,12 @@ public class Solution {
 
 		for (int i = 0; i < numberOfIntegers; i++) {
 			int inputInteger = reader.nextInt();
-			System.out.println(putIntegersInNondecreasingOrder_getMedian(inputInteger, i));
+			System.out.println(putIntegersInNondecreasingOrder_returnMedian(inputInteger, i));
 		}
 		reader.close();
 	}
 
-	public static double putIntegersInNondecreasingOrder_getMedian(int inputInteger, int currentIndex) {
+	public static double putIntegersInNondecreasingOrder_returnMedian(int inputInteger, int currentIndex) {
 		double median = 0;
 		if (input.size() == 0) {
 			input.add(inputInteger);
